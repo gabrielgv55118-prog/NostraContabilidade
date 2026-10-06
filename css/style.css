@@ -307,23 +307,27 @@ img { max-width: 100%; display: block; }
   color: var(--text-muted);
   border-bottom: 1px dashed rgba(245, 241, 232, 0.08);
 }
-.panel__ok {
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: #4ade80;
-  background: rgba(74, 222, 128, 0.12);
-  border: 1px solid rgba(74, 222, 128, 0.35);
-  border-radius: 6px;
-  padding: 0.15rem 0.55rem;
+.panel__check {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  border: 1px solid rgba(201, 162, 39, 0.5);
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
 }
-.panel__chart {
-  width: 100%;
-  margin-top: 1.3rem;
+.panel__check svg {
+  width: 14px; height: 14px;
+  fill: var(--gold-light);
 }
-.panel__chart rect { fill: var(--gold); opacity: 0.85; }
-.panel__chart rect:nth-child(even) { fill: var(--gold-light); }
-.panel__chart rect:nth-child(4) { opacity: 1; }
+.panel__footer {
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(245, 241, 232, 0.1);
+  font-size: 0.85rem;
+  color: var(--gold-light);
+  font-style: italic;
+}
 
 /* Chips flutuantes */
 .chip {
