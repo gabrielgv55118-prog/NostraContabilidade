@@ -399,9 +399,8 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Cards de valor ---------- */
 .valores {
-  background:
-    radial-gradient(ellipse 60% 90% at 85% 20%, rgba(201, 162, 39, 0.14), transparent 60%),
-    linear-gradient(120deg, var(--navy-900), var(--navy-700));
+  background: linear-gradient(180deg, #faf5e6, #f7f0da);
+  border-block: 1px solid rgba(201, 162, 39, 0.25);
   padding: 2rem 0;
 }
 .valores__grid {
@@ -412,16 +411,16 @@ img { max-width: 100%; display: block; }
 .valor { text-align: center; }
 .valor .icon {
   width: 34px; height: 34px;
-  fill: var(--gold-light);
+  fill: var(--gold-deep);
   margin: 0 auto 0.8rem;
 }
 .valor h3 {
   font-size: 1.02rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--navy-900);
   margin-bottom: 0.3rem;
 }
-.valor p { font-size: 0.9rem; color: rgba(245, 241, 232, 0.65); }
+.valor p { font-size: 0.9rem; color: var(--muted); }
 
 /* ---------- Título de página interna ---------- */
 .page-hero {
