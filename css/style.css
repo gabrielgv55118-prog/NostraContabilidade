@@ -28,14 +28,17 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+  overflow-x: clip;
+}
 
 body {
   font-family: var(--font-body);
   background: var(--bg);
   color: var(--ink);
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 img { max-width: 100%; display: block; }
@@ -913,6 +916,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 768px) {
   .section { padding: 4.2rem 0; }
   .banner { padding: 5.5rem 0; background-attachment: scroll; }
+  html { scroll-behavior: auto; }
 
   .nav {
     position: fixed;
