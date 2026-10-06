@@ -423,6 +423,33 @@ img { max-width: 100%; display: block; }
 }
 .valor p { font-size: 0.9rem; color: rgba(245, 241, 232, 0.65); }
 
+/* ---------- Título de página interna ---------- */
+.page-hero {
+  padding: 160px 0 3.5rem;
+  text-align: center;
+  background:
+    radial-gradient(ellipse 60% 55% at 50% 0%, rgba(201, 162, 39, 0.12), transparent 65%),
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(244, 246, 250, 0.94)),
+    url('../banner.jpg');
+  background-size: auto, auto, cover;
+  background-position: center;
+}
+.page-hero .hero__tag::before { display: none; }
+.page-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 700;
+  color: var(--navy-900);
+  line-height: 1.12;
+  margin-bottom: 0.9rem;
+}
+.page-hero__subtitle {
+  max-width: 620px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
 /* ---------- Seções genéricas ---------- */
 .section { padding: 6rem 0; position: relative; }
 
