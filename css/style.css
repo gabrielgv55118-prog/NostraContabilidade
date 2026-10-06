@@ -211,12 +211,11 @@ img { max-width: 100%; display: block; }
   align-items: center;
   padding: 130px 0 80px;
   background:
-    radial-gradient(ellipse 60% 45% at 80% 0%, rgba(201, 162, 39, 0.12), transparent 60%),
-    radial-gradient(ellipse 55% 40% at 5% 100%, rgba(20, 33, 61, 0.06), transparent 70%),
-    linear-gradient(rgba(20, 33, 61, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(20, 33, 61, 0.03) 1px, transparent 1px),
-    var(--bg);
-  background-size: auto, auto, 46px 46px, 46px 46px, auto;
+    radial-gradient(ellipse 60% 45% at 80% 0%, rgba(201, 162, 39, 0.1), transparent 60%),
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(244, 246, 250, 0.93)),
+    url('../banner.jpg');
+  background-size: auto, auto, cover;
+  background-position: center;
   overflow: hidden;
 }
 .hero__inner {
