@@ -6,8 +6,8 @@
 
 // >>> TROQUE AQUI O NÚMERO DO WHATSAPP <<<
 // Formato: código do país + DDD + número, só dígitos.
-// Exemplo (41) 99999-0000 -> '5541999990000'
-const WHATSAPP_NUMBER = '5541999990000';
+// Exemplo (41) 98877-1967 -> '5541988771967'
+const WHATSAPP_NUMBER = '5541988771967';
 
 const DEFAULT_MESSAGE =
   'Olá! Vim pelo site da Nostra Contabilidade e gostaria de um orçamento.';
