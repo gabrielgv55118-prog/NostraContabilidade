@@ -399,9 +399,10 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Cards de valor ---------- */
 .valores {
-  background: var(--bg-alt);
-  border-block: 1px solid var(--line);
-  padding: 3.2rem 0;
+  background:
+    radial-gradient(ellipse 60% 90% at 85% 20%, rgba(201, 162, 39, 0.14), transparent 60%),
+    linear-gradient(120deg, var(--navy-900), var(--navy-700));
+  padding: 3.6rem 0;
 }
 .valores__grid {
   display: grid;
@@ -411,16 +412,16 @@ img { max-width: 100%; display: block; }
 .valor { text-align: center; }
 .valor .icon {
   width: 34px; height: 34px;
-  fill: var(--gold-deep);
+  fill: var(--gold-light);
   margin: 0 auto 0.8rem;
 }
 .valor h3 {
   font-size: 1.02rem;
   font-weight: 700;
-  color: var(--navy-900);
+  color: #fff;
   margin-bottom: 0.3rem;
 }
-.valor p { font-size: 0.9rem; color: var(--muted); }
+.valor p { font-size: 0.9rem; color: rgba(245, 241, 232, 0.65); }
 
 /* ---------- Seções genéricas ---------- */
 .section { padding: 6rem 0; position: relative; }
