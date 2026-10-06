@@ -402,7 +402,7 @@ img { max-width: 100%; display: block; }
   background:
     radial-gradient(ellipse 60% 90% at 85% 20%, rgba(201, 162, 39, 0.14), transparent 60%),
     linear-gradient(120deg, var(--navy-900), var(--navy-700));
-  padding: 3.6rem 0;
+  padding: 2rem 0;
 }
 .valores__grid {
   display: grid;
