@@ -121,8 +121,7 @@ img { max-width: 100%; display: block; }
   transition: background var(--transition), box-shadow var(--transition), padding var(--transition);
 }
 .header.scrolled {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.97);
   box-shadow: 0 4px 24px rgba(13, 27, 42, 0.1);
   padding: 0.55rem 0;
 }
