@@ -809,6 +809,14 @@ img { max-width: 100%; display: block; }
 }
 .cta .btn--navy:hover { box-shadow: 0 14px 32px rgba(10, 21, 34, 0.5); }
 
+/* ---------- Divisor ---------- */
+.divider {
+  height: 8px;
+  background:
+    radial-gradient(ellipse 40% 100% at 50% 50%, rgba(224, 185, 92, 0.9), transparent 70%),
+    linear-gradient(90deg, transparent, var(--gold) 20%, var(--gold-light) 50%, var(--gold) 80%, transparent);
+}
+
 /* ---------- Contato ---------- */
 .contato { background: var(--bg); }
 .contato__grid {
